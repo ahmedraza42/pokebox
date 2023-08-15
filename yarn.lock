@@ -1518,7 +1518,7 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@react-native-async-storage/async-storage@^1.13.4", "@react-native-async-storage/async-storage@^1.19.1":
+"@react-native-async-storage/async-storage@^1.19.1":
   version "1.19.1"
   resolved "https://registry.npmjs.org/@react-native-async-storage/async-storage/-/async-storage-1.19.1.tgz"
   integrity sha512-5QXuGCtB+HL3VtKL2JN3+6t4qh8VXizK+aGDAv6Dqiq3MLrzgZHb4tjVgtEWMd8CcDtD/JqaAI1b6/EaYGtFIA==
@@ -1732,11 +1732,6 @@
   version "1.3.0"
   resolved "https://registry.npmjs.org/@react-native-community/eslint-plugin/-/eslint-plugin-1.3.0.tgz"
   integrity sha512-+zDZ20NUnSWghj7Ku5aFphMzuM9JulqCW+aPXT6IfIXFbb8tzYTTOSeRFOtuekJ99ibW2fUCSsjuKNlwDIbHFg==
-
-"@react-native-ml-kit/text-recognition@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.npmjs.org/@react-native-ml-kit/text-recognition/-/text-recognition-1.2.1.tgz"
-  integrity sha512-pJrnf8AvihzYdPAZoZZEeKbOUOMjdsetDjHlleXOoVcoPo6qjfh6Il/Q0ey3boIQuO3HglvNjcMPGEPThF3sPA==
 
 "@react-native/assets@1.0.0":
   version "1.0.0"
@@ -6032,20 +6027,6 @@ react-native-image-crop-picker@^0.40.0:
   version "0.40.0"
   resolved "https://registry.npmjs.org/react-native-image-crop-picker/-/react-native-image-crop-picker-0.40.0.tgz"
   integrity sha512-FpqiCS4CiPQp8qIorlELWKbpi1d9lyhJki9spZr4LShv9hk65GWo6tYJupfTV19o5XcRwJn8d4MHIUoyWMJRTQ==
-
-react-native-permissions@^2.0.2:
-  version "2.2.2"
-  resolved "https://registry.npmjs.org/react-native-permissions/-/react-native-permissions-2.2.2.tgz"
-  integrity sha512-ihf4shQDSX5Oo9ChQXb9kr13mmyyNem5MaEvOpr3dCjhBOBWyEMztXm9/uPK1Qg5PsNpaYLa1KpcPZDCw87LXg==
-
-react-native-qrcode-scanner@^1.5.5:
-  version "1.5.5"
-  resolved "https://registry.npmjs.org/react-native-qrcode-scanner/-/react-native-qrcode-scanner-1.5.5.tgz"
-  integrity sha512-il79uStkFqUvofqXJQfOL30qgQyU17MUKxj7IGHv6oT2OxIY/vutTwuPPDbsivtv0yTMHP4dGx/79oys4eAuNw==
-  dependencies:
-    "@react-native-async-storage/async-storage" "^1.13.4"
-    prop-types "^15.5.10"
-    react-native-permissions "^2.0.2"
 
 react-native-root-siblings@^4.0.0, react-native-root-siblings@^4.1.1:
   version "4.1.1"

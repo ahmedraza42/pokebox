@@ -1,6 +1,6 @@
 import React, {useEffect, useRef, useState} from 'react';
 import {StyleSheet, Text, TouchableOpacity, View, FlatList, Alert, Image, Button, Dimensions} from 'react-native';
-import QRCodeScanner from 'react-native-qrcode-scanner';
+// import QRCodeScanner from 'react-native-qrcode-scanner';
 import {moderateScale} from 'react-native-size-matters';
 import {showToast} from '../components/Toast';
 import {getItemFromStorage, saveItemToStorage} from '../utils/storage';
@@ -10,13 +10,6 @@ import RNFS from 'react-native-fs';
 import Share from 'react-native-share';
 import TextRecognition from '@react-native-ml-kit/text-recognition';
 import ImagePicker from "react-native-image-crop-picker";
-// import { useSharedValue } from 'react-native-reanimated';
-// import {
-//   Camera,
-//   useCameraDevices,
-//   useFrameProcessor,
-// } from 'react-native-vision-camera';
-// import { labelImage } from 'vision-camera-image-labeler';
 const Home = () => {
   const [tabIndex, setTabIndex] = useState(0);
   const [showCamera, setShowCamera] = useState(0);
@@ -29,10 +22,10 @@ const Home = () => {
     {id: 1, value: 'Scanned Cards'},
   ];
   const [hasPermission, setHasPermission] = useState(false);
-  const currentLabel = useSharedValue('');
+  // const currentLabel = useSharedValue('');
 
-  const devices = useCameraDevices();
-  const device = devices.back;
+  // const devices = useCameraDevices();
+  // const device = devices.back;
  
 
 
@@ -49,7 +42,7 @@ const Home = () => {
      
 
       
-      <Button title="Capture Image" onPress={captureImage} />
+      <Button title="Capture Image" onPress={()=>{}} />
       {/* {extractedText !== '' && <Text style={{marginTop: 20,}}>{extractedText}</Text>} */}
     </View>
       // <View style={{flex: 1,backgroundColor:'white'}}>
